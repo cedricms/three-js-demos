@@ -1,0 +1,28 @@
+{
+  "name": "three-js-demos",
+  "version": "1.0.0",
+  "description": "Multiple demo projects for Three.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedricms/three-js-demos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cedricms/three-js-demos/issues"
+  },
+  "homepage": "https://github.com/cedricms/three-js-demos#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+	"watch": "webpack --watch"
+  }
+}
