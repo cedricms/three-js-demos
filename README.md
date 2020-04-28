@@ -4,8 +4,5 @@ Multiple demo projects for Three.js.
 ## Set up the project
 ``npm init -y``
 
-## Compile the project
-``webpack``
-
-## Run the project
-``npm run watch``
+## Compile and run the project
+``npm start``
