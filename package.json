@@ -4,7 +4,7 @@
   "description": "Multiple demo projects for Three.js.",
   "main": "app/index.js",
   "scripts": {
-	"start": "webpack-dev-server",
+    "start": "webpack-dev-server",
     "watch": "webpack --watch"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/cedricms/three-js-demos#readme",
   "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^3.5.3",
     "extract-loader": "^5.0.1",
     "file-loader": "^6.0.0",
@@ -29,6 +30,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
+    "github-fork-ribbon-css": "^0.2.3",
     "material-components-web": "^6.0.0",
     "three": "^0.115.0"
   }

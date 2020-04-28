@@ -1,6 +1,8 @@
 const webpack = require('webpack');
 const path = require("path");
 
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
 let config = {
 	entry: {
 		appCss: './app/assets/scss/app.scss',
@@ -22,7 +24,7 @@ let config = {
 					{
 						loader: 'file-loader',
 						options: {
-							name: './dist/bundle.css',
+							name: './bundle.css',
 						},
 					},
 					{ loader: 'extract-loader' },
@@ -37,7 +39,12 @@ let config = {
 				]
 			}
 		]
-	}
+	},
+	plugins: [
+		new CopyWebpackPlugin( [
+				{ from: './node_modules/github-fork-ribbon-css/gh-fork-ribbon.css', to: '' }
+			])
+	]
 }
 
 module.exports = config;
