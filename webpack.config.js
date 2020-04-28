@@ -6,9 +6,10 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 let config = {
 	entry: {
 		appCss: './app/assets/scss/app.scss',
-		index: "./app/index.js",
-		spinningCube: "./app/spinningCube/spinningCube.js",
-		cubeWithLight: "./app/cubeWithLight/cubeWithLight.js"
+		index: './app/index.js',
+		spinningCube: './app/spinningCube/spinningCube.js',
+		cubeWithLight: './app/cubeWithLight/cubeWithLight.js',
+		loadOBJ: './app/loadOBJ/loadOBJ.js'
 	},
 	output: {
 		path: path.resolve(__dirname, "./dist"),
