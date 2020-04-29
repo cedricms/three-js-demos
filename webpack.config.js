@@ -9,7 +9,8 @@ let config = {
 		index: './app/index.js',
 		spinningCube: './app/spinningCube/spinningCube.js',
 		cubeWithLight: './app/cubeWithLight/cubeWithLight.js',
-		loadOBJ: './app/loadOBJ/loadOBJ.js'
+		loadOBJ: './app/loadOBJ/loadOBJ.js',
+		pickAndMoveObject: './app/pickAndMoveObject/pickAndMoveObject.js'
 	},
 	output: {
 		path: path.resolve(__dirname, "./dist"),
