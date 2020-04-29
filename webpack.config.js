@@ -10,7 +10,8 @@ let config = {
 		spinningCube: './app/spinningCube/spinningCube.js',
 		cubeWithLight: './app/cubeWithLight/cubeWithLight.js',
 		loadOBJ: './app/loadOBJ/loadOBJ.js',
-		pickAndMoveObject: './app/pickAndMoveObject/pickAndMoveObject.js'
+		pickAndMoveObject: './app/pickAndMoveObject/pickAndMoveObject.js',
+		loadGLB: './app/loadGLB/loadGLB.js'
 	},
 	output: {
 		path: path.resolve(__dirname, "./dist"),

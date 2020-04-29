@@ -1,6 +1,6 @@
 let THREE = require('three');
 
-import {MTLLoader, OBJLoader} from 'three-obj-mtl-loader'
+import {MTLLoader, OBJLoader} from 'three-obj-mtl-loader';
 
 let scene = new THREE.Scene();
 
