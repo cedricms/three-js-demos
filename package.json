@@ -33,7 +33,7 @@
     "@tweenjs/tween.js": "^18.5.0",
     "github-fork-ribbon-css": "^0.2.3",
     "material-components-web": "^6.0.0",
-    "three": "^0.115.0",
+    "three": "^0.125.0",
     "three-obj-mtl-loader": "^1.0.3"
   }
 }
